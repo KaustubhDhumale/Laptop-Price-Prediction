@@ -1,43 +1,35 @@
-# 💻 Laptop Price Predictor
+💻 Laptop Price Predictor
 
-A professional Machine Learning web application that predicts laptop prices based on user-provided specifications. This project is built using **Python**, **Flask**, and **Scikit-Learn**, and is ready for deployment on platforms like Render or Heroku.
+A Machine Learning web application that predicts laptop prices based on user-provided specifications. This project is built using Python, Flask, and Scikit-Learn and can be deployed on platforms like Render or Heroku.
 
-## 🚀 Live Demo
-*(Once deployed, add your Render/Heroku link here)*
-Example: [https://laptop-price-predictor-xyz.onrender.com](https://laptop-price-predictor-xyz.onrender.com)
+🚀 Live Demo  
+(Add your deployment link here)
 
----
+🛠️ Features  
+- Predicts laptop prices using Machine Learning  
+- Uses Random Forest Regressor (~81% accuracy)  
+- Simple and responsive UI  
+- Data preprocessing and feature engineering  
+- API support for external usage  
+- Ready for deployment  
 
-## 🛠️ Features
-- **Accurate Predictions:** Uses a Random Forest Regressor with ~81% accuracy.
-- **Responsive UI:** Clean and modern interface built with custom CSS.
-- **Pre-processing Pipeline:** Automated data cleaning and feature engineering.
-- **API Support:** Includes a JSON API endpoint for integration with other apps.
-- **Production Ready:** Configured with `Gunicorn`, `Procfile`, and `runtime.txt` for easy deployment.
+📊 Dataset  
+The model is trained on a dataset containing:
+- Company (Brand)  
+- Type (Notebook, Gaming, etc.)  
+- RAM (GB)  
+- Weight (kg)  
+- Screen features (IPS, Touchscreen)  
+- CPU & GPU  
+- Operating System  
 
----
+🧠 Model Information  
+- Algorithm: Random Forest Regressor  
+- Target: Laptop Price  
+- Accuracy: ~0.81 (R2 Score)  
+- Preprocessing: One-Hot Encoding + Numeric conversion  
 
-## 📊 Dataset
-The model is trained on a comprehensive laptop dataset containing:
-- Company (Brand)
-- Type (Notebook, Gaming, Ultrabook, etc.)
-- RAM (GB)
-- Weight (kg)
-- Screen Resolution (IPS, Touchscreen)
-- CPU & GPU Brands
-- Operating System
-
----
-
-## 🧠 Model Information
-- **Algorithm:** Random Forest Regressor (300 estimators)
-- **Target Variable:** Price (Log-transformed for better normality)
-- **Accuracy (R2 Score):** ~0.81
-- **Preprocessing:** One-Hot Encoding for categorical variables, Numeric conversion for RAM/Weight.
-
----
-
-## 📁 Project Structure
+📁 Project Structure  
 ```text
 LaptopPricePrediction/
 │
@@ -63,7 +55,7 @@ LaptopPricePrediction/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/KushalPathave02/Laptop_Price_Prediction.git
+   git clone https://github.com/KaustubhDhumale/Laptop-Price-Prediction.git
    cd Laptop_Price_Prediction
    ```
 
@@ -79,7 +71,7 @@ LaptopPricePrediction/
 
 4. **Run the app:**
    ```bash
-   python3 app.py
+   python app.py
    ```
    Open `http://127.0.0.1:5000` in your browser.
 
@@ -114,5 +106,5 @@ LaptopPricePrediction/
 ---
 
 ## 👤 Author
-**Kushal Pathave**
-- GitHub: [@KushalPathave02](https://github.com/KushalPathave02)
+**Kaustubh Dhumale**
+- GitHub:  https://github.com/KaustubhDhumale
